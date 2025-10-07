@@ -17,7 +17,7 @@ public class GroupService {
   public GroupService() {
      RestAssured.baseURI = "http://127.0.0.1:8000";
      requestSpecification = RestAssured.given()
-       .header("Authorization", "Token fc2fa49b76bbf28c084a44e8ffc7452399417a82"); 
+       .header("Authorization", "Token 14f64911a86f634c5b4ddce3e7d75fe42b46e735"); 
   }
 
   public Response all() {
